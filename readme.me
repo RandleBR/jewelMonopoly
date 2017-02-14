@@ -1,8 +1,29 @@
 # Monopoly Game tickets - show me the winners!
 
-A python project to record all of the ticket numbers and determine if we have a full set 
-and win a prize!  
+A python project to record all of the Monopoly ticket numbers and determine if we have a full set for a prize.    
 
 Ticket prizes are identified by the first 2 characters on the ticket, plus a 1 character alpha 
 character for a total of 4-7 tickets needed to win one prize.
+For example, 8ca, 8cb, 8cc, and 8cd.
 
+## Proposed use
+
+User is prompted to enter a ticket number. 
+
+Ticket number is validated (against a list of valid tickets)
+  if the ticket doesn't match then a 'ticket number not found message' to UI
+Determine if Ticket is either a:
+  Duplicate - If there are 1 or more tickets in the TicketLog that match the ticket
+    then return a message 'Already have that ticket' to UI
+  else
+    Keeper - determine if we have all tickets for the Prize.
+      Use first 2 of ticket to get the TicketPrize data. This could be a JSON object in the form
+      Prize : 8c, Tickets : [a, b, c, d]
+      FindTickets - For each Tickets, determine if PrizeTicket is in TicketLog
+        If Tickets_found + theEnteredTicket = len(Tickets) then we WIN!
+          Show a WINNER! message
+        else
+          Show message 'Keeper - We now have Tickets_found +1 of len(Tickets)
+          
+Add Ticket to Ticketlog
+  TicketLog could be a text file, or JSON, or a database. Could include timestamp.
