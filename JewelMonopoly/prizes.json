@@ -1,0 +1,70 @@
+{
+  "prizes": [
+    
+    {
+      "prize": "9a",
+      "win": "$10,000 4-wheeler",
+      "tickets": [ "a", "b", "c", "d", "e" ]
+    },
+    {
+      "prize": "9b",
+      "win": "$10,000 Family vacation",
+      "tickets": [ "a", "b", "c", "d", "e" ]
+    },
+    {
+      "prize": "9c",
+      "win": "25.00 Cash",
+      "tickets": [ "a", "b", "c", "d" ]
+    },
+    {
+      "prize": "9d",
+      "win": "25.00 Fandango",
+      "tickets": [ "a", "b", "c", "d" ]
+    },
+    {
+      "prize": "9e",
+      "win": "15.00 grocery card",
+      "tickets": [ "a", "b", "c", "d" ]
+    },
+    {
+      "prize": "9f",
+      "win": "10.00 grocery card",
+      "tickets": [ "a", "b", "c", "d" ]
+    },
+    {
+      "prize": "9g",
+      "win": "10.00 Cash",
+      "tickets": [ "a", "b", "c", "d" ]
+    },
+    {
+      "prize": "9h",
+      "win": "5.00 grocery card",
+      "tickets": [ "a", "b", "c", "d" ]
+    },
+    {
+      "prize": "9j",
+      "win": "5.00 Cash",
+      "tickets": [ "a", "b", "c", "d" ]
+    },
+    {
+      "prize": "8b",
+      "win": "$20,000 College tuition",
+      "tickets": [ "a", "b", "c", "d", "e" ]
+    },
+    {
+      "prize": "8c",
+      "win": "$35,000 vehicle",
+      "tickets": [ "a", "b", "c", "d", "e" ]
+    },
+    {
+      "prize": "8d",
+      "win": "$40,000 vehicle",
+      "tickets": [ "a", "b", "c", "d", "e" ]
+    },
+    {
+      "prize": "8e",
+      "win": "$100,000 cash or vehicle",
+      "tickets": [ "a", "b", "c", "d", "e" ]
+    }
+  ]
+}
